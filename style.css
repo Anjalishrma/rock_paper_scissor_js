@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap');
+* {margin: 0;padding: 0;text-align: center}
+body{font-family: "Dancing Script", cursive;}
+h1{font-size: 50px;background: #000;color: #fff;padding: 10px;}
+.choices, .scrore_board{display: flex;justify-content: center;align-items: center;gap: 3rem; margin-top: 5rem;}
+.choice{height: 150px;width: 150px;cursor: pointer;}
+.choice img:hover{border: 5px solid #ddd; border-radius: 50%;}
+.choice img{border: 5px solid #fff;height: 150px;width: 150px;object-fit: cover;border-radius: 50%;transition: 0.3s ease-in-out;}
+.scrore_board .score p{font-size: 50px;}
+.msg_container{margin-top: 5rem;}
+.msg_container p#msg{ background-color: #5e9aa6;padding: 1rem 2rem;font-size: 2.5rem;font-weight: 900;border-radius: 10px;display: inline;color: #fff;}
+.selection{display: flex;justify-content: center;margin-top: 5rem;font-size: 3rem;flex-direction: column;}
+.selection span{font-size: 2rem;color: cadetblue;}
